@@ -1,5 +1,5 @@
 # Regime-Detection-HMM
-This case study uses the Hidden Markov Model to correctly identify different market regimes in the US financial markets and provide the investment strategy depending on the current regime. We assume that there are two market states : 
+This case study uses the Hidden Markov Model to correctly identify different market regimes in the US financial markets and provide the investment strategy depending on the each regime. We assume that there are two market states : 
 
 • low uncertainty (relatively stable and resilient) market 
 
