@@ -1,7 +1,10 @@
 # Regime-Detection-HMM
 This case study uses the Hidden Markov Model to correctly identify different market regimes in the US financial markets and provide the investment strategy depending on the current regime. We assume that there are two market states : 
+
 • low uncertainty (relatively stable and resilient) market 
+
 • high uncertainty (relatively chaotic and fragile) market
+
 Detecting and shifting regimes are always challenging for investors since Performance, risk and behavior of portfolio may impacts on significantly.
 
 ## HMM
@@ -11,14 +14,16 @@ A Hidden Markov Model is a statistical model that can be used to describe the ev
 Main issues using HMM: 
 
 -	Decoding Problem
+
 	Given HMM M = (A,B,p), and the observation sequence O = o_1, .. o_k, calculate the most likely sequence of hidden states S_i that produced this observation sequence O. 
 -	Learning Problem
+
 	Given some training observation sequences, O= o_1, o_2, …o_k and general structure of HMM, determine HMM parameters M = (A,B,p) that best fit training data 
   
 Usually, Decoding problem is solving by Viterbi Algorithm and B-W algorithm is used for the Learning Problem. 
 Here, we used HMM.GaussianHmm Python Package is used to get the decoding and learning problem of HMM
 
-## Steps to run the project on each machine 
+## Running this project on each device 
 
 #### Python 3
 In this project, we would like to Python. Usually, Python 3 is already installed on many systems these days. By checking the version of the python, any version of Python 3 should be enough to run this model. 
@@ -81,9 +86,12 @@ from hmmlearn import hmm
 Then simply follow our steps that we show in HMM.ipython file
 
 Data is private. But you can download SPY or other index from Yahoo Finance or other websites. 
-References
-https://www.mdpi.com/1911-8074/13/12/311/htm https://github.com/Marblez/HMM_trading/blob/master/hmm.ipynb
-Dynamic Portfolio Optimization across Hidden Market Regimes 
+
+## References
+
+Peter Nystrup, Henrik Madsen & Erik Lindström (2018) Dynamic portfolio optimization across hidden market regimes, Quantitative Finance, 18:1, 83-95, DOI: 10.1080/14697688.2017.1342857
+
+Wang M, Lin Y-H, Mikhelson I. Regime-Switching Factor Investing with Hidden Markov Models. Journal of Risk and Financial Management. 2020; 13(12):311. https://doi.org/10.3390/jrfm13120311
 
 
  
