@@ -65,6 +65,8 @@ pip install matplotlib
 
 pip install seaborn
 
+pip install datetime
+
 pip install hmmlearn
 ```
 
