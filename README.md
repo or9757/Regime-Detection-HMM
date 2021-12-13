@@ -107,6 +107,6 @@ Peter Nystrup, Henrik Madsen & Erik Lindström (2018) Dynamic portfolio optimiza
 
 Wang M, Lin Y-H, Mikhelson I. Regime-Switching Factor Investing with Hidden Markov Models. Journal of Risk and Financial Management. 2020; 13(12):311. https://doi.org/10.3390/jrfm13120311
 
-
- 
+ Bennet, C, & Gil, M. (2012). Measuring Historical Volatility. Santander Global Banking & Markets.
+https://dynamiproject.files.wordpress.com/2016/01/measuring_historic_volatility.pdf
 
