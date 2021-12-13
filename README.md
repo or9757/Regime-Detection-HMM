@@ -68,6 +68,10 @@ pip install seaborn
 pip install datetime
 
 pip install hmmlearn
+
+pip install quantstats
+
+pip install sklearn.linear_model
 ```
 
 If Jupyter notebook is running properly, need to install several Python libraries to run our project. 
@@ -87,6 +91,10 @@ import seaborn as sns
 import datetime
 
 from hmmlearn import hmm 
+
+from sklearn.linear_model import LassoCV, LinearRegression
+
+import quantstats as qs
 ```
 
 Then simply follow our steps that we show in HMM.ipython file
